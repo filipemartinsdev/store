@@ -30,29 +30,3 @@ public class Main {
         Loja.printEstoque();
     }
 }
-
-
-class Roupa extends Produto {
-    char tamanho;
-    Roupa(String nome, float preco, int quantidade, char tamanho) {
-        super(nome, preco, quantidade);
-        this.tamanho = tamanho;
-    }
-}
-class Alimento extends Produto {
-    String validade;
-    Alimento(String nome, float preco, int quantidade, String validade) {
-        super(nome, preco, quantidade);
-        this.validade = validade;
-    }
-}
-class Eletronico extends Produto {
-    Eletronico(String nome, float preco, int quantidade) {
-        super(nome, preco, quantidade);
-    }
-}
-class Frios extends Alimento {
-    Frios(String nome, float preco, int quantidade, String validade){
-        super(nome, preco, quantidade, validade);
-    }
-}
