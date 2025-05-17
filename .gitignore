@@ -2,6 +2,6 @@
 /shelf/
 /workspace.xml
 .idea/
-compiled/
 *.class
+*.iml
 app.py
